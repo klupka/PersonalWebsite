@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Seth Klupka</title>
+
+        <!-- Fonts -->
+        <link
+            href="https://fonts.googleapis.com/css?family=Roboto"
+            rel="stylesheet"
+        />
+        <!-- CSS -->
+        <link rel="stylesheet" href="./assets/main.css" />
+        <link rel="stylesheet" href="./assets/about-me.css" />
+        <!-- Font Awesome -->
+        <script
+            src="https://kit.fontawesome.com/f49e6ed101.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <!-- page container -->
+        <div class="page-container">
+            <!-- main-container -->
+            <span class="main-container">
+                <!-- navbar-container -->
+                <span class="navbar-container glass">
+                    <div class="navbar-links-div">
+                        <ul class="navbar-links-ul">
+                            <li>
+                                <button
+                                    id="about-me-button"
+                                    onclick="loadPage(0)"
+                                    class="navbar-button"
+                                >
+                                    <i
+                                        class="fa-solid fa-user navbar-links-li-icon"
+                                    ></i>
+                                    About Me
+                                </button>
+                            </li>
+
+                            <li>
+                                <button
+                                    id="portfolio-button"
+                                    onclick="loadPage(1)"
+                                    class="navbar-button"
+                                >
+                                    <i
+                                        class="fa-solid fa-folder-open navbar-links-li-icon"
+                                    ></i>
+                                    Portfolio
+                                </button>
+                            </li>
+
+                            <li>
+                                <button
+                                    id="resources-button"
+                                    onclick="loadPage(2)"
+                                    class="navbar-button"
+                                >
+                                    <i
+                                        class="fa-solid fa-link navbar-links-li-icon"
+                                    ></i
+                                    >Resources
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </span>
+                <!-- content-container -->
+                <span class="content-container"></span>
+            </span>
+        </div>
+    </body>
+    <!-- Scripts -->
+    <script src="./script.js"></script>
+</html>
