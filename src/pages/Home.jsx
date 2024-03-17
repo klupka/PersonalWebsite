@@ -146,7 +146,7 @@ const Home = () => {
                     <div className="text-text animate-pulse hover:scale-[1.02] transition ease-in-out hover:animate-none">
                         <NavLink
                             className="flex gap-3 items-center hover:text-accentText transition ease-in-out font-semibold"
-                            to={"/portfolio"}
+                            to={"/PersonalWebsite/Portfolio"}
                         >
                             View Portfolio
                         </NavLink>
