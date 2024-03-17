@@ -9,7 +9,7 @@ const Nav = () => {
                 className="flex justify-between text-sm font-bold mx-auto max-w-screen-xl w-full m-2 px-3"
                 id="nav"
             >
-                <NavLink id="navLogo" className="" to={"/"}>
+                <NavLink id="navLogo" className="" to={"/PersonalWebsite/"}>
                     <div className="text-lg flex justify-center items-center h-10 italics">
                         SETH
                         <span className="text-accentText font-extrabold">
@@ -19,7 +19,7 @@ const Nav = () => {
                 </NavLink>
                 <ul className="flex items-center gap-10">
                     <li className="hover:text-accentText">
-                        <NavLink className="" to={"/portfolio"}>
+                        <NavLink className="" to={"/PersonalWebsite/Portfolio"}>
                             PORTFOLIO
                         </NavLink>
                     </li>
