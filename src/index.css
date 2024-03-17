@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    background-color: #0f172a;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    background-repeat: repeat, no-repeat;
+    background-size: 40px 40px, cover;
+    background-image: radial-gradient(circle, #172341 1px, rgba(0, 0, 0, 0) 1px),
+        linear-gradient(
+            0deg,
+            hsl(222deg 47% 11%) 13%,
+            hsl(222deg 48% 9%) 59%,
+            hsl(222deg 49% 7%) 90%
+        );
+
+    color: rgb(226 232 240);
+    scrollbar-gutter: stable;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-track {
+    background-image: linear-gradient(
+        0deg,
+        hsl(222deg 47% 11%) 13%,
+        hsl(222deg 48% 9%) 59%,
+        hsl(222deg 49% 7%) 90%
+    );
+}
+::-webkit-scrollbar-thumb {
+    background: #1e293b;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: white;
+}
+
+::selection {
+    background: #22d3ee;
+    color: black;
+}
+::-moz-selection {
+    background: #22d3ee;
+    color: black;
+}
+
+#prof_bg {
+    background-image: url("../src/resources/briefcase_transparent.png");
+    background-size: 62%;
+    background-repeat: no-repeat;
+    background-position: bottom -100px right -100px;
+    background-blend-mode: overlay;
+}
+
+#skills_expertise {
+    background-image: url("../src/resources/cog_transparent.png");
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: bottom -100px right -100px;
+    background-blend-mode: overlay;
+}
+
+#personal_interests {
+    background-image: url("../src/resources/wrench_transparent.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: bottom -70px right -30px;
+    background-blend-mode: overlay;
+}
