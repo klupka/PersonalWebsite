@@ -1,8 +1,20 @@
-import retroCalculatorImg from "../resources/calculatorImageZoomed.png";
-import libraryImg from "../resources/mernLibraryImageZoomed.png";
-import weatherImg from "../resources/weatherWebAppImageZoomed.png";
+import retroCalculatorImg from "../resources/RetroCalculatorImage.png";
+import libraryImg from "../resources/LibraryImage.png";
+import weatherImg from "../resources/WeatherAppImage.png";
+import dungeonDashImg from "../resources/DungeonDashImage.png";
 
 export const projects = [
+    {
+        title: "Dungeon Dash",
+        description:
+            "Dungeon Dash: a single-page web app where you play as a thief on a mission to gather riches in an endless castle tower. Navigate obstacles, evade enemies, and grab loot. Challenge intensifies as you progress. Developed using HTML, CSS, and JavaScript, featuring JavaScript canvas for visuals and Howler.js for audio. Showcase of JavaScript basics and animation skills.",
+        date: "April 2024",
+        note: "This application plays audio.",
+        githubLink: "https://github.com/klupka/DungeonDash",
+        imageURL: dungeonDashImg,
+        liveLink: "https://klupka.github.io/DungeonDash/",
+        usage: "Objective: Gather coins and climb to new heights to boost your score. User input keys: [Up Arrow] - Jump, [Left Arrow] - Move Left, [Right Arrow] - Move Right, [Z] - Throw knife, [P] - Pause / Resume.",
+    },
     {
         title: "Retro Calculator",
         description:

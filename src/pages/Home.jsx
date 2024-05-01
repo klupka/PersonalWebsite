@@ -7,7 +7,7 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { NavLink } from "react-router-dom";
 
-import profilePicture from "../resources/boar.jpg";
+import profilePicture from "../resources/profilePicture.jpg";
 
 const Home = () => {
     return (
@@ -35,30 +35,12 @@ const Home = () => {
                         <div className="flex justify-center">
                             <ul className="flex gap-5 mt-0 text-text text-sm justify-center">
                                 <div className="flex flex-col gap-5">
-                                    <li className="hover:scale-[1.02] transition ease-in-out">
-                                        <a className="font-semibold flex items-center gap-3 justify-start transition ease-in-out hover:text-accentText border-borderSubtle rounded-md border-[1px] p-3 bg-[#0f172a80] backdrop-blur-2xl w-[235px] hover:border-accentText hover:bg-slate-800">
+                                    <li className="transition ease-in-out">
+                                        <a className="font-semibold flex items-center gap-3 justify-start transition ease-in-out border-borderSubtle rounded-md border-[1px] p-3 bg-[#0f172a80] backdrop-blur-2xl w-[235px]">
                                             <div className="pr-3">
                                                 <FaLocationDot />
                                             </div>
                                             <div>San Antonio, Texas</div>
-                                        </a>
-                                    </li>
-                                    <li className="hover:scale-[1.02] transition ease-in-out">
-                                        <a className="font-semibold flex items-center gap-3 justify-start transition ease-in-out hover:text-accentText border-borderSubtle rounded-md border-[1px] p-3 bg-[#0f172a80] backdrop-blur-2xl w-[235px] hover:border-accentText hover:bg-slate-800">
-                                            <div className="pr-3">
-                                                <BsFillTelephoneFill />
-                                            </div>
-                                            +1 (210) 740-3581
-                                        </a>
-                                    </li>
-                                </div>
-                                <div className="flex flex-col gap-5">
-                                    <li className="hover:scale-[1.02] transition ease-in-out">
-                                        <a className="font-semibold flex items-center gap-3 justify-start transition ease-in-out hover:text-accentText border-borderSubtle rounded-md border-[1px] p-3 bg-[#0f172a80] backdrop-blur-2xl w-[235px] hover:border-accentText hover:bg-slate-800">
-                                            <div className="pr-3">
-                                                <MdEmail />
-                                            </div>
-                                            sethcklupka@gmail.com
                                         </a>
                                     </li>
                                     <li className="hover:scale-[1.02] transition ease-in-out">
@@ -73,6 +55,27 @@ const Home = () => {
                                         </a>
                                     </li>
                                 </div>
+                                <div className="flex flex-col gap-5">
+                                    <li className="transition ease-in-out">
+                                        <a className="font-semibold flex items-center gap-3 justify-start transition ease-in-out border-borderSubtle rounded-md border-[1px] p-3 bg-[#0f172a80] backdrop-blur-2xl w-[235px]">
+                                            <div className="pr-3">
+                                                <BsFillTelephoneFill />
+                                            </div>
+                                            +1 (210) 740-3581
+                                        </a>
+                                    </li>
+                                    <li className="hover:scale-[1.02] transition ease-in-out">
+                                        <a
+                                            href="mailto:sethcklupka@gmail.com"
+                                            className="font-semibold flex items-center gap-3 justify-start transition ease-in-out hover:text-accentText border-borderSubtle rounded-md border-[1px] p-3 bg-[#0f172a80] backdrop-blur-2xl w-[235px] hover:border-accentText hover:bg-slate-800"
+                                        >
+                                            <div className="pr-3">
+                                                <MdEmail />
+                                            </div>
+                                            sethcklupka@gmail.com
+                                        </a>
+                                    </li>
+                                </div>
                             </ul>
                         </div>
                     </div>
@@ -82,9 +85,9 @@ const Home = () => {
                         <div className="flex gap-10">
                             <div
                                 id="prof_bg"
-                                className="text-text w-1/3 p-10 flex flex-col hover:scale-[1.02] transition ease-in-out hover:text-accentText group border-borderSubtle rounded-md border-[1px] bg-[#0f172a80] backdrop-blur-2xl hover:border-accentText hover:bg-slate-800"
+                                className="text-text w-1/3 p-10 flex flex-col transition ease-in-out group border-borderSubtle rounded-md border-[1px] bg-[#0f172a80] backdrop-blur-2xl"
                             >
-                                <div className="flex items-center text-heading gap-5 text-lg font-semibold pb-5 group-hover:text-accentText">
+                                <div className="flex items-center text-heading gap-5 text-lg font-semibold pb-5">
                                     Professional Background
                                 </div>
 
@@ -98,9 +101,9 @@ const Home = () => {
                             </div>
                             <div
                                 id="skills_expertise"
-                                className="text-text w-1/3 p-10 flex flex-col hover:scale-[1.02] transition ease-in-out hover:text-accentText group border-borderSubtle rounded-md border-[1px] bg-[#0f172a80] backdrop-blur-2xl hover:border-accentText hover:bg-slate-800"
+                                className="text-text w-1/3 p-10 flex flex-col transition ease-in-out group border-borderSubtle rounded-md border-[1px] bg-[#0f172a80] backdrop-blur-2xl"
                             >
-                                <div className="flex items-center text-heading gap-5 text-lg font-semibold pb-5 group-hover:text-accentText">
+                                <div className="flex items-center text-heading gap-5 text-lg font-semibold pb-5">
                                     Skills & Expertise
                                 </div>
                                 <ul className="flex flex-col gap-3 text-sm list-inside font-semibold">
@@ -113,15 +116,15 @@ const Home = () => {
                             </div>
                             <div
                                 id="personal_interests"
-                                className="text-text w-1/3 p-10 flex flex-col hover:scale-[1.02] transition ease-in-out hover:text-accentText group border-borderSubtle rounded-md border-[1px] bg-[#0f172a80] backdrop-blur-2xl hover:border-accentText hover:bg-slate-800"
+                                className="text-text w-1/3 p-10 flex flex-col transition ease-in-out group border-borderSubtle rounded-md border-[1px] bg-[#0f172a80] backdrop-blur-2xl"
                             >
-                                <div className="flex items-center text-heading gap-5 text-lg font-semibold pb-5 group-hover:text-accentText">
+                                <div className="flex items-center text-heading gap-5 text-lg font-semibold pb-5">
                                     Technologies
                                 </div>
                                 <span className="font-semibold text-sm">
                                     Frontend
                                 </span>
-                                <ul className="list-inside text-sm mb-3 mt-1 border-l-2 border-borderSubtle ml-1 pl-2 group-hover:border-accentText">
+                                <ul className="list-inside text-sm mb-3 mt-1 border-l-2 border-borderSubtle ml-1 pl-2">
                                     <li>
                                         HTML, CSS, JavaScript, React, Tailwind
                                     </li>
@@ -129,13 +132,13 @@ const Home = () => {
                                 <span className="font-semibold text-sm">
                                     Backend
                                 </span>
-                                <ul className="list-inside text-sm mb-3 mt-1 border-l-2 border-borderSubtle ml-1 pl-2 group-hover:border-accentText">
+                                <ul className="list-inside text-sm mb-3 mt-1 border-l-2 border-borderSubtle ml-1 pl-2">
                                     <li>Node.js, Express, PHP</li>
                                 </ul>
                                 <span className="font-semibold text-sm">
                                     Database Management
                                 </span>
-                                <ul className="list-inside text-sm border-l-2 border-borderSubtle ml-1 pl-2 group-hover:border-accentText">
+                                <ul className="list-inside text-sm border-l-2 border-borderSubtle ml-1 pl-2">
                                     <li>SQL, MongoDB</li>
                                 </ul>
                             </div>
