@@ -56,7 +56,7 @@ const ProjectCard = ({
                         >
                             <div className="flex gap-2 items-center text-text font-bold hover:text-accentText hover:border-accentText hover:bg-slate-700 border-[2px] p-1 rounded-md border-borderSubtle">
                                 <FaGithub className="text-base" />
-                                <span className="text-sm">GitHub</span>
+                                <span className="text-sm">Source Code</span>
                             </div>
                         </a>
                         <a
