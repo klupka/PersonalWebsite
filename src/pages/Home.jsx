@@ -7,7 +7,7 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { NavLink } from "react-router-dom";
 
-import profilePicture from "../resources/profilePicture.jpg";
+import profilePicture from "../resources/profilePictureCompressed.jpg";
 
 const Home = () => {
     return (
