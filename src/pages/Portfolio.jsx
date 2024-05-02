@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "../components/Nav";
 import ProjectCard from "../components/ProjectCard";
-import { projects } from "../resources/portfolioData";
+import { projects } from "../resources/data/portfolioData";
 
 const Portfolio = () => {
     return (

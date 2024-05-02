@@ -1,7 +1,7 @@
-import retroCalculatorImg from "../resources/RetroCalculatorImage.png";
-import libraryImg from "../resources/LibraryImage.png";
-import weatherImg from "../resources/WeatherAppImage.png";
-import dungeonDashImg from "../resources/DungeonDashImage.png";
+import retroCalculatorImg from "../images/project_images/RetroCalculatorImage.png";
+import libraryImg from "../images/project_images/LibraryImage.png";
+import weatherImg from "../images/project_images/WeatherAppImage.png";
+import dungeonDashImg from "../images/project_images/DungeonDashImage.png";
 
 export const projects = [
     {

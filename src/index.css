@@ -52,7 +52,7 @@ html {
 }
 
 #prof_bg {
-    background-image: url("../src/resources/briefcase_transparent.png");
+    background-image: url("../src/resources/images/ui_elements/briefcase_transparent.png");
     background-size: 62%;
     background-repeat: no-repeat;
     background-position: bottom -100px right -100px;
@@ -60,7 +60,7 @@ html {
 }
 
 #skills_expertise {
-    background-image: url("../src/resources/cog_transparent.png");
+    background-image: url("../src/resources/images/ui_elements/cog_transparent.png");
     background-size: 60%;
     background-repeat: no-repeat;
     background-position: bottom -100px right -100px;
@@ -68,7 +68,7 @@ html {
 }
 
 #personal_interests {
-    background-image: url("../src/resources/wrench_transparent.png");
+    background-image: url("../src/resources/images/ui_elements/wrench_transparent.png");
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: bottom -70px right -30px;
