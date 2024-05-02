@@ -1,5 +1,6 @@
 import React from "react";
 import Nav from "../components/Nav";
+import ScrollToTop from "../components/ScrollToTop";
 
 import { FaGithub } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
@@ -12,6 +13,7 @@ import profilePicture from "../resources/images/profilePictureCompressed.jpg";
 const Home = () => {
     return (
         <>
+            <ScrollToTop />
             <Nav />
             <div className="animate-load_content">
                 <div className="max-w-screen-xl mx-auto font-inter p-3 pt-0">
@@ -25,15 +27,15 @@ const Home = () => {
                         <div className="text-5xl font-semibold text-heading">
                             Seth Klupka
                         </div>
-                        <div className="max-w-[500px]">
+                        <div className="max-w-[500px] px-5">
                             Experienced web developer specializing in
                             user-friendly digital solutions. Skilled in
                             front-end and back-end development, with a focus on
                             clean, responsive websites.
                         </div>
 
-                        <div className="flex justify-center">
-                            <ul className="flex gap-5 mt-0 text-text text-sm justify-center">
+                        <div className="flex justify-center w-full">
+                            <ul className="flex flex-col sm:flex-row gap-5 mt-0 text-text text-sm justify-center">
                                 <div className="flex flex-col gap-5">
                                     <li className="transition ease-in-out">
                                         <a className="font-semibold flex items-center gap-3 justify-start transition ease-in-out border-borderSubtle rounded-md border-[1px] p-3 bg-[#0f172a80] backdrop-blur-2xl w-[235px]">
@@ -81,11 +83,11 @@ const Home = () => {
                     </div>
                 </div>
                 <div>
-                    <div className="max-w-screen-xl mx-auto font-inter flex flex-col">
-                        <div className="flex gap-10">
+                    <div className="lg:max-w-screen-xl mx-auto font-inter flex flex-col px-5">
+                        <div className="flex flex-col items-center xl:flex-row gap-10">
                             <div
                                 id="prof_bg"
-                                className="text-text w-1/3 p-10 flex flex-col transition ease-in-out group border-borderSubtle rounded-md border-[1px] bg-[#0f172a80] backdrop-blur-2xl"
+                                className="w-full sm:w-[500px] text-text xl:w-1/3 p-10 flex flex-col transition ease-in-out group border-borderSubtle rounded-md border-[1px] bg-[#0f172a80] backdrop-blur-2xl"
                             >
                                 <div className="flex items-center text-heading gap-5 text-lg font-semibold pb-5">
                                     Professional Background
@@ -101,7 +103,7 @@ const Home = () => {
                             </div>
                             <div
                                 id="skills_expertise"
-                                className="text-text w-1/3 p-10 flex flex-col transition ease-in-out group border-borderSubtle rounded-md border-[1px] bg-[#0f172a80] backdrop-blur-2xl"
+                                className="w-full sm:w-[500px] text-text xl:w-1/3 p-10 flex flex-col transition ease-in-out group border-borderSubtle rounded-md border-[1px] bg-[#0f172a80] backdrop-blur-2xl"
                             >
                                 <div className="flex items-center text-heading gap-5 text-lg font-semibold pb-5">
                                     Skills & Expertise
@@ -116,7 +118,7 @@ const Home = () => {
                             </div>
                             <div
                                 id="personal_interests"
-                                className="text-text w-1/3 p-10 flex flex-col transition ease-in-out group border-borderSubtle rounded-md border-[1px] bg-[#0f172a80] backdrop-blur-2xl"
+                                className="w-full sm:w-[500px] text-text xl:w-1/3 p-10 flex flex-col transition ease-in-out group border-borderSubtle rounded-md border-[1px] bg-[#0f172a80] backdrop-blur-2xl"
                             >
                                 <div className="flex items-center text-heading gap-5 text-lg font-semibold pb-5">
                                     Technologies
