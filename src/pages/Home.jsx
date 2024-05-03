@@ -28,10 +28,10 @@ const Home = () => {
                             Seth Klupka
                         </div>
                         <div className="max-w-[500px] px-5">
-                            Experienced web developer specializing in
-                            user-friendly digital solutions. Skilled in
-                            front-end and back-end development, with a focus on
-                            clean, responsive websites.
+                            Junior Web Developer skilled in HTML, CSS,
+                            JavaScript, and frameworks like React. Eager learner
+                            with a passion for crafting user-friendly
+                            experiences.
                         </div>
 
                         <div className="flex justify-center w-full">
