@@ -26,18 +26,18 @@ const ProjectCard = ({
         }
     }
     return (
-        <div className="group text-text w-full p-5 my-5 flex flex-col transition ease-in-out group border-borderSubtle rounded-md border-[1px] bg-[#0f172a80] backdrop-blur-2xl">
-            <div className="flex gap-5">
-                <div className="w-1/4 flex items-center justify-center">
+        <div className="group text-text w-full p-5 mb-10 lg:mb-5 flex flex-col transition ease-in-out group border-borderSubtle rounded-md border-[1px] bg-[#0f172a80] backdrop-blur-2xl">
+            <div className="flex gap-5 flex-col md:flex-row items-center">
+                <div className=" flex items-center justify-center">
                     <a href={liveLink} target="_blank">
                         <img
-                            className="rounded-md object-cover border-[1px] border-borderSubtle w-full h-[298.5px] hover:scale-[1.02] transition ease-in-out hover:border-accentText"
+                            className="rounded-md object-cover border-[1px] border-borderSubtle max-h-[400px] w-full hover:scale-[1.02] transition ease-in-out hover:border-accentText" //w-full h-[200px] md:h-[300px]
                             src={imageURL}
                             alt="Project Image Preview"
                         />
                     </a>
                 </div>
-                <div className="w-3/4 flex flex-col gap-5">
+                <div className="w-full flex flex-col gap-5">
                     <div className=" flex items-center justify-between">
                         <div className="text-lg text-heading font-semibold">
                             {title}

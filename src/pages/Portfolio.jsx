@@ -16,7 +16,7 @@ const Portfolio = () => {
                             Portfolio
                         </h1>
                         <div className="flex justify-center">
-                            <div className="text-text text-base text-center mb-20 mt-5 w-[500px]">
+                            <div className="text-text text-base text-center mb-20 mt-5 w-[500px] px-5">
                                 These projects were developed for learning and
                                 skill development, covering various areas such
                                 as coding challenges and creative pursuits.
